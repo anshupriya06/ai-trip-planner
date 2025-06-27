@@ -1,13 +1,16 @@
 import './App.css'
+import { Button } from "@/components/ui/button"
+import Hero from './custom/Hero'
 
 function App() {
 
   return (
     <>
-      <h1>Welcome to the World!</h1>
-      <button>Submit</button>
+     <Hero/>
     </>
   )
 }
 
 export default App
+
+
